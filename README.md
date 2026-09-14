@@ -11,7 +11,7 @@ The application provides the following benefits:
 - **Scalability**: Supports the addition of devices and future management features.
 
 
-## Application Features and Business Rules
+## Application Features
 
 The application manages network devices such as routers, switches, firewalls, servers, access points, printers, and workstations. Each device can contain multiple interfaces with an interface name, MAC address, IP address, VLAN assignment, and operational status.
 
