@@ -1,6 +1,6 @@
 # Joph Network Inventory
 
-Joph Network Inventory is a web-based application designed to centralize the management of network infrastructure. It provides network administrators with a structured system for managing devices, interfaces, IP addresses, VLANs, locations, and operational statuses.
+JophNet is a web-based application designed to centralize the management of network infrastructure. It provides network administrators with a structured system for managing devices, interfaces, IP addresses, VLANs, locations, and operational statuses.
 
 The application provides the following benefits:
 
@@ -37,3 +37,9 @@ Joph Network Inventory uses the following technologies:
 - Docker Network: Provides private communication between the containers.
 
 The Django application and MySQL database run in separate Docker containers connected through the same Docker network. This architecture separates the application and database services, making the system easier to deploy, maintain, and expand.
+
+## Application Usage
+
+This section explains how to use JophNet and its main features. It provides a step-by-step guide for navigating the application, managing network resources, and accessing device and interface information.
+
+
