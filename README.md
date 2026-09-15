@@ -147,6 +147,7 @@ Figure 6 shows that the GigabitEthernet0/2 interface was added successfully to t
 Figure 6. Interface GigabitEthernet0/2 Added Successfully
 
 ---
+
 ## 7. Interface Details and Status History
 
 Clicking an interface name from the Device Information page opens the Interface Details page. The top section displays the interface information, including its MAC address, IP address, VLAN assignment, and current status. The bottom section displays the complete status history for the interface.
@@ -163,7 +164,8 @@ The status history provides the following information:
 
 Figure 8 shows the Update Interface page. The form allows the administrator to modify the interface name, MAC address, IP address, VLAN assignment, and status. The Update Reason is required only when the interface status is changed. A new entry is added to the Interface Status History only when the status changes. Updating other interface information without changing its status does not create a history record.
 
-![Network_Inventory](images/Update interface.png)
+![Network_Inventory](images/Update_interface.png)
+Figure 8. Update Interface Page
 
 
 
