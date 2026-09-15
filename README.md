@@ -44,7 +44,7 @@ This section explains how to use JophNet and its main features. It provides a st
 
 ---
 
-1. Devices Page
+## 1. Devices Page
 
 The Devices page is the main page of JophNet. It displays the network devices stored in the application. In this example, no device has been added yet, so the page displays “No device found.”
 
@@ -60,7 +60,7 @@ The navigation menu provides access to Devices, Interfaces, VLANs, and Tools.
 
 ---
 
-2. Add Device
+## 2. Add Device
 
 From the Devices page, click Add Device to open the device registration form. The Add Device page is used to enter the information required to identify, classify, locate, and track a network device.
 
@@ -82,7 +82,7 @@ Click Add Device to save the device. Reset clears the form, while Cancel returns
 
 --- 
 
-3. Device Added
+## 3. Device Added
 
 After the device is successfully registered, JophNet returns to the Devices page and displays a confirmation message. The new device is then listed with its type, hostname, manufacturer, model, serial number, version, location, and current status.
 
@@ -98,7 +98,72 @@ The device list provides the following visual and navigation features:
 
 ---
 
+## 4. Device Information
 
+After clicking the device hostname on the Devices page, JophNet opens the Device Information page. This page provides a detailed view of the selected device and its registered network interfaces.
+
+![Network_Inventory](images/Device_Info.png)
+Figure 4. Device Information Page
+
+The page is divided into two main sections:
+
+- Device Information: Displays the device type, manufacturer, model, serial number, version, location, and current status.
+- Interface List: Displays all interfaces registered to the device, including the interface name, MAC address, IP address, VLAN number, VLAN name, and status.
+
+The page also provides three main actions:
+
+- Update Device: Opens the form for modifying the device information.
+- Add Interface: Registers a new interface to the current device.
+- Back: Returns to the previous page.
+
+The interface names are clickable and provide access to additional information and management options for each interface.
+
+---
+
+## 5. Add Interface
+
+From the Device Information page, click Add Interface to register a new network interface for the selected device. The form collects the interface name, MAC address, IP address, VLAN assignment, and operational status.
+
+![Network_Inventory](images/Add_interface.png)
+Figure 5. Add Interface Page
+
+
+
+Figure 5 shows an example of adding a network interface with the following information:
+
+- Interface Name: GigabitEthernet0/1
+- MAC Address: 00:1A:2B:10:00:01
+- IP Address: 192.168.10.2
+- VLAN: VLAN 20 - Servers
+- Status: Online
+
+To prevent IP address conflicts, JophNet does not allow two interfaces with Online status to use the same IP address.
+
+Click Add Interface to save the interface. Reset clears the form, while Cancel returns to the previous page without saving.
+
+Figure 6 shows that the GigabitEthernet0/2 interface was added successfully to the device.
+
+![Network_Inventory](images/interface_added.png)
+Figure 6. Interface GigabitEthernet0/2 Added Successfully
+
+---
+## 7. Interface Details and Status History
+
+Clicking an interface name from the Device Information page opens the Interface Details page. The top section displays the interface information, including its MAC address, IP address, VLAN assignment, and current status. The bottom section displays the complete status history for the interface.
+
+![Network_Inventory](images/interface_history.png)
+Figure 7. Interface Details and Status History
+
+The status history provides the following information:
+
+- Initial Status: Automatically recorded when the interface is first registered, including the date and time.
+- Automatic Offline Status: When the parent device goes Offline, the interface is automatically changed to Offline and the event is recorded.
+- Manual Status Change: Interfaces are not automatically returned to Online when the parent device comes back Online. The administrator must update the interface manually and provide a reason for the status change.
+- Update Interface: Click Update Interface to modify the interface information or change its status.
+
+Figure 8 shows the Update Interface page. The form allows the administrator to modify the interface name, MAC address, IP address, VLAN assignment, and status. The Update Reason is required only when the interface status is changed. A new entry is added to the Interface Status History only when the status changes. Updating other interface information without changing its status does not create a history record.
+
+![Network_Inventory](images/Update interface.png)
 
 
 
