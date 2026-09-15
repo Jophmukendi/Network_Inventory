@@ -81,7 +81,24 @@ Figure 2 shows an example of registering a Cisco switch:
 Click Add Device to save the device. Reset clears the form, while Cancel returns to the previous page without saving.
 
 --- 
-3. 
+
+3. Device Added
+
+After the device is successfully registered, JophNet returns to the Devices page and displays a confirmation message. The new device is then listed with its type, hostname, manufacturer, model, serial number, version, location, and current status.
+
+![Network_Inventory](images/Device_Added.png)
+Figure 3. Device Successfully Added
+
+
+The device list provides the following visual and navigation features:
+
+- Hostname: The hostname displayed in green is a link. Click the hostname, such as SW-CORE, to open the device information page.
+- Status: The status is color-coded for quick identification. Online is displayed in green, while Offline is displayed in red.
+- Confirmation Message: A success message appears at the top of the page after the device is added successfully.
+
+---
+
+
 
 
 
