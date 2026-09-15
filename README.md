@@ -42,4 +42,19 @@ The Django application and MySQL database run in separate Docker containers conn
 
 This section explains how to use JophNet and its main features. It provides a step-by-step guide for navigating the application, managing network resources, and accessing device and interface information.
 
+---
+
+1. Devices Page
+
+The Devices page is the main page of JophNet. It displays the network devices stored in the application. In this example, no device has been added yet, so the page displays “No device found.”
+
+The page provides two main actions:
+
+Add Device: Opens the form used to register a new network device.
+Show Devices: Filters the device list by category, such as Router, Switch, Server, or Access Point.
+
+The navigation menu provides access to Devices, Interfaces, VLANs, and Tools.
+
+
+
 
