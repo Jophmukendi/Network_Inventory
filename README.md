@@ -48,12 +48,42 @@ This section explains how to use JophNet and its main features. It provides a st
 
 The Devices page is the main page of JophNet. It displays the network devices stored in the application. In this example, no device has been added yet, so the page displays “No device found.”
 
+![Network_Inventory](images/main_page.png)
+Figure 1. JophNet Devices Page
+
 The page provides two main actions:
 
-Add Device: Opens the form used to register a new network device.
-Show Devices: Filters the device list by category, such as Router, Switch, Server, or Access Point.
+- Add Device: Opens the form used to register a new network device.
+- Show Devices: Filters the device list by category, such as Router, Switch, Server, or Access Point.
 
 The navigation menu provides access to Devices, Interfaces, VLANs, and Tools.
+
+---
+
+2. Add Device
+
+From the Devices page, click Add Device to open the device registration form. The Add Device page is used to enter the information required to identify, classify, locate, and track a network device.
+
+![Network_Inventory](images/Add_device.png)
+Figure 2. Add Device Page
+
+Figure 2 shows an example of registering a Cisco switch:
+
+- Device Type: Switch
+- Hostname: SW-CORE
+- Manufacturer: Cisco
+- Model: Catalyst 2960X-48FPD-L
+- Serial Number: FOC2215A1B2
+- Version: 15.2(7)E10
+- Location: Main Server Room
+- Status: Online
+
+Click Add Device to save the device. Reset clears the form, while Cancel returns to the previous page without saving.
+
+--- 
+3. 
+
+
 
 
 
