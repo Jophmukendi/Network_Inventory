@@ -50,7 +50,7 @@ JophNet is available online for demonstration and testing.
 
 ---
 
-## 1. Devices Page
+## 1. Devices Menu
 
 The Devices page is the main page of JophNet. It displays the network devices stored in the application. In this example, no device has been added yet, so the page displays “No device found.”
 
