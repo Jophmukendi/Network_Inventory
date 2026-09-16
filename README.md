@@ -1,4 +1,4 @@
-# JophNet - Network Inventory
+# JophNet - Network Inventory System
 
 JophNet is a web-based application designed to centralize the management of network infrastructure. It provides network administrators with a structured system for managing devices, interfaces, IP addresses, VLANs, locations, and operational statuses.
 
