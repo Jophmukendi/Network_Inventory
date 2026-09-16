@@ -46,9 +46,7 @@ JophNet includes a user authentication system that requires users to log in befo
 
 JophNet is available online for demonstration and testing.
 
-**Live Application:** [JophNet](https://app.jophnex.com/jophnet/)
-
-https://app.jophnex.com/jophnet/
+**Live Application:** [JophNet](https://app.jophnex.com/jophnet/) or https://app.jophnex.com/jophnet/
 
 ---
 
