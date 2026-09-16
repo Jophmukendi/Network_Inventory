@@ -167,6 +167,10 @@ Figure 8 shows the Update Interface page. The form allows the administrator to m
 ![Network_Inventory](images/Update_interface.png)
 Figure 8. Update Interface Page
 
+---
+
+
+
 
 
 
