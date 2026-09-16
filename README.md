@@ -169,6 +169,56 @@ Figure 8. Update Interface Page
 
 ---
 
+## 8. Interfaces Menu
+
+The Interfaces menu provides a centralized view of the network interfaces registered across all devices in JophNet. Each row identifies the parent device and displays the interface name, MAC address, IP address, VLAN number, VLAN name, and current status.
+
+![Network_Inventory](images/Interface_manu.png)
+Figure 9. Interfaces Menu
+
+The page provides one main action:
+
+- Show Interfaces: The drop-down menu at the top-right filters interfaces by their operational status or displays all registered interfaces.
+
+Interface statuses are color-coded, with Online displayed in green and Offline displayed in red for quick identification.
+
+---
+
+## 9. VLANs Menu
+
+The VLANs menu provides a centralized view of all network interfaces that are assigned to a VLAN. For each interface, the list displays its VLAN name and number, the name and type of its parent device, the interface name, IP address, and current interface status.
+
+![Network_Inventory](images/Vlan_Menu.png)
+Figure 10. VLANs Menu
+
+The page provides two main actions:
+
+- Show VLAN: Filters the list by VLAN, allowing the administrator to view all interfaces assigned to a selected VLAN.
+- Add VLAN: Opens the form used to register a new VLAN that does not already exist in JophNet.
+
+Clicking Add VLAN opens the Add New VLAN page. The administrator enters the VLAN number and VLAN name before adding it to the system.
+
+![Network_Inventory](images/Add_Vlan.png)
+Figure 11. Add New VLAN Page
+
+JophNet prevents duplicate VLAN configurations. The system does not allow two VLANs to be registered with the same VLAN number or VLAN name, helping maintain unique VLAN identification within the inventory.
+
+---
+
+## Conclusion
+
+JophNet provides a centralized web-based solution for managing network devices, interfaces, VLANs, locations, operational statuses, and interface status history. The application combines network inventory management with business rules that maintain consistency between devices and their interfaces. Its current architecture using Python, Django, MySQL, and Docker also provides a foundation for adding more advanced network-management capabilities.
+
+Future development will focus on reducing manual administration and providing more visibility into the network. Planned and potential features include:
+
+- Automatic Interface Status Detection: JophNet will automatically determine whether registered network interfaces are Online or Offline instead of relying only on manual status updates.
+- Automatic Device Monitoring: The system can periodically check registered devices and update their operational status when connectivity changes.
+- Network Discovery: JophNet can scan authorized network ranges to discover new devices and interfaces that are not yet registered.
+- Alerts and Notifications: Administrators can receive notifications when important events occur, such as a device or interface going Offline.
+
+
+
+
 
 
 
