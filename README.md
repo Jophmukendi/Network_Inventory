@@ -15,7 +15,7 @@ The application provides the following benefits:
 
 The application manages network devices such as routers, switches, firewalls, servers, access points, printers, and workstations. Each device can contain multiple interfaces with an interface name, MAC address, IP address, VLAN assignment, and operational status.
 
-The main features and business rules include:
+The main features:
 
 - Device management: Add, view, update, search, and filter network devices.
 - Interface management: Manage interfaces associated with each device.
@@ -28,7 +28,7 @@ The main features and business rules include:
 
 ## Technologies and Architecture
 
-Joph Network Inventory uses the following technologies:
+JophNet uses the following technologies:
 
 - Python: Implements server-side application logic.
 - Django: Provides the web framework, processes requests, renders pages, and manages communication with the data layer.
@@ -40,9 +40,12 @@ The Django application and MySQL database run in separate Docker containers conn
 
 ## Application Usage
 
-This section explains how to use JophNet and its main features. It provides a step-by-step guide for navigating the application, managing network resources, and accessing device and interface information.
+This section provides a step-by-step guide to using JophNet and managing network resources.
 
 JophNet includes a user authentication system that requires users to log in before accessing the application. For this demonstration, authentication has been temporarily disabled to provide faster access to the application and focus on its network management features.
+
+JophNet is available online for demonstration and testing. Access the live application using the link below.
+Visit [Google](https://www.google.com) for searching.
 
 ---
 
