@@ -42,6 +42,8 @@ The Django application and MySQL database run in separate Docker containers conn
 
 This section explains how to use JophNet and its main features. It provides a step-by-step guide for navigating the application, managing network resources, and accessing device and interface information.
 
+JophNet includes a user authentication system that requires users to log in before accessing the application. For this demonstration, authentication has been temporarily disabled to provide faster access to the application and focus on its network management features.
+
 ---
 
 ## 1. Devices Page
