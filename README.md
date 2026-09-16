@@ -44,8 +44,9 @@ This section provides a step-by-step guide to using JophNet and managing network
 
 JophNet includes a user authentication system that requires users to log in before accessing the application. For this demonstration, authentication has been temporarily disabled to provide faster access to the application and focus on its network management features.
 
-JophNet is available online for demonstration and testing. Access the live application using the link below.
-https://app.jophnex.com/jophnet/
+JophNet is available online for demonstration and testing.
+
+**Live Application:** [JophNet](https://app.jophnex.com/jophnet/)
 
 ---
 
