@@ -48,6 +48,8 @@ JophNet is available online for demonstration and testing.
 
 **Live Application:** [JophNet](https://app.jophnex.com/jophnet/)
 
+https://app.jophnex.com/jophnet/
+
 ---
 
 ## 1. Devices Page
